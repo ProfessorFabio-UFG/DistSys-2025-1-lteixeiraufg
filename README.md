@@ -25,4 +25,26 @@ On another machine:
 
 ### Now, add other topics for in the publisher and create subscribers for the new topics.
 
+--------------------------------------------------------------------------------------------------------------
+
+Adição de múltiplos tópicos no publisher:
+
+O arquivo publisher.py foi modificado para enviar mensagens com os tópicos:
+
+TIME: horário atual (já existente)
+
+DATE: data atual
+
+WEATHER: condição climática simulada
+
+Criação de novos subscribers:
+
+subscriber_time.py: assina e exibe apenas mensagens com o tópico TIME
+
+subscriber_date.py: assina e exibe apenas mensagens com o tópico DATE
+
+subscriber_weather.py: assina e exibe apenas mensagens com o tópico WEATHER
+
+
+
     
